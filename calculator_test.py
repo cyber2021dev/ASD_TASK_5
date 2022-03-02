@@ -10,11 +10,11 @@ class Test(unittest.TestCase):
         self.assertEqual(result,12)
 
     def test_1_multiply(self):
-        result2 = self.calculator.multiply(4,8)
+        result2 = self.calculator.multiply(3,9)
         self.assertEqual(result2,27)
 
     def test_2_power(self):
-        result3 = self.calculator.power(4,8)
+        result3 = self.calculator.power(2,3)
         self.assertEqual(result3,8)
 
 
