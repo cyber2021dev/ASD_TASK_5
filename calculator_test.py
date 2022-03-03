@@ -7,7 +7,7 @@ class Test(unittest.TestCase):
     calculator = CalculatorClass.Calculator() # instantiate the Calculator Class
     def test_0_add(self):
         result = self.calculator.add(4,8)
-        self.assertEqual(result,12)
+        self.assertEqual(result,12) 
 
     def test_1_multiply(self):
         result2 = self.calculator.multiply(3,9)
